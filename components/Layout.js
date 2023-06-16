@@ -16,7 +16,7 @@ export default function Layout({children}) {
     );
   }
 
-  return (
+  return ( 
     <div className="bg-bgGray min-h-screen ">
       <div className="block md:hidden flex items-center p-4">
         <button onClick={() => setShowNav(true)}>
